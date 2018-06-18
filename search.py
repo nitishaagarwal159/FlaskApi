@@ -34,7 +34,7 @@ def rea():
 	#else :
 	#	return jsonify({'message':'0'})	
 	
-@app.route('/',methods=['GET'])
+@app.route('/hello',methods=['GET'])
 def test():
 	return jsonify({'message' : 'It works!'})	
 
